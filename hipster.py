@@ -16,7 +16,7 @@ bot = InstaBot(
     password="SADEVRA72722",
     like_per_day=2000,
     comments_per_day=0,
-    tag_list=["Entrepreneur", "Business", "Entrepreneurship", "Growth", "Mindset", "Success", "Freedom", "Startup", "BeYourOwnBoss", "onlinebusiness ", "businessowner", "smallbusinessowner", "beyourownboss", "businessowners", "entrepreneurial", "startups", "entrepreneursofinstagram", "entrepreneurspirit", "femaleentrepreneur", "womensupportingwomen", "ladyboss", "womeninbusiness", "womenempowerment", "bosschick", "womenwhohustle", "womenpower", "wahm", "bosslady", "bosschicks", "digitalmarketing", "onlinemarketing", "emailmarketing", "marketingdigital", "salesfunnel", "internetmarketing", "listbuilding", "leads", "webmarketing", "mktdigital", "growthhacking"
+    tag_list=["smallbusinessowner", "beyourownboss", "businessowners", "entrepreneurial", "startups", "entrepreneursofinstagram", "entrepreneurspirit", "femaleentrepreneur", "womensupportingwomen", "ladyboss", "womeninbusiness", "womenempowerment", "bosschick", "womenwhohustle", "womenpower", "wahm", "bosslady", "bosschicks", "digitalmarketing", "onlinemarketing", "emailmarketing", "marketingdigital", "salesfunnel", "internetmarketing", "listbuilding", "leads", "webmarketing", "mktdigital", "growthhacking"
               ],
     tag_blacklist=["rain", "thunderstorm", "followers", "fc", "official", "desi", "japnies", "bhabhi" ],
     user_blacklist={},
