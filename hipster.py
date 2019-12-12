@@ -10,22 +10,24 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    #login="trend.sttler",  # Enter username (lowercase). Do not enter email!
-    #password="karansoniji#1",
+    # login="trend.sttler",  # Enter username (lowercase). Do not enter email!
+    # password="karansoniji#1",
     login="open_that_up",
     password="SADEVRA72722",
     like_per_day=2000,
     comments_per_day=0,
-    tag_list=["smallbusinessowner", "beyourownboss", "businessowners", "entrepreneurial", "startups", "entrepreneursofinstagram", "entrepreneurspirit", "femaleentrepreneur", "womensupportingwomen", "ladyboss", "womeninbusiness", "womenempowerment", "bosschick", "womenwhohustle", "womenpower", "wahm", "bosslady", "bosschicks", "digitalmarketing", "onlinemarketing", "emailmarketing", "marketingdigital", "salesfunnel", "internetmarketing", "listbuilding", "leads", "webmarketing", "mktdigital", "growthhacking"
-              ],
-    tag_blacklist=["rain", "thunderstorm", "followers", "fc", "official", "desi", "japnies", "bhabhi" ],
+    tag_list=["influencerskings", "fashioninfluencers", "bangaloreinfluencers", "influencersaus", "influencerswanted", "influencerstylle", "blackinfluencers", "beautyinfluencers", "influencersofsweden", "influencersfelices", "influencersalliance", "influencerscampinas", "influencersofinstagram", "influencersurabaya", "influencersdolar",
+              "influencersg", "microinfluencers", "influencersliveshow", "influencerstyle", "peluquerosinfluencers", "influencersearch", "sustainableinfluencers", "influencerskids", "digitalinfluencers", "fotografosinfluencers", "influencersre", "influencers", "thefotografosinfluencers", "styleinfluencers", "influencerspain"],
+    tag_blacklist=["rain", "thunderstorm", "followers",
+                   "fc", "official", "desi", "japnies", "bhabhi"],
     user_blacklist={},
     max_like_for_one_tag=200,
-    follow_per_day=0,
+    follow_per_day=300,
     follow_time=1 * 1 * 5,
     unfollow_per_day=0,
     unlike_per_day=0,
-    unfollow_recent_feed=True,  # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
+    # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
+    unfollow_recent_feed=True,
     time_till_unlike=3 * 24 * 60 * 60,  # 3 days
     unfollow_break_min=2,
     unfollow_break_max=5,
@@ -63,7 +65,7 @@ bot = InstaBot(
             "adorable",
             "excellent",
             "amazing",
-            
+
         ],
         [".", "🙌", "... 👏", "!", "! 😍", "😎"],
     ],
@@ -129,13 +131,13 @@ bot = InstaBot(
         "bhabhi",
     ],
     unfollow_whitelist=["sonalii.sharmaa", "saniya_khaton_13", "simran_thakur743", "___sachi.__", "anushka4nov", "fulwanideepa",
-                         "simran6734", "worldwide_photography_hub", "mehakrajput132",
-                         "mansi__cupcake", "deeksha_rajput_07", "ritika_2945",
-                         "shizhukasingh0", "simar.5796", "shivanimohitsharma",
-                         "pari_ji_bhardwaj", "cutegirlsonali", "garvita786",
-                         "pinkssss08", "skywalker_flying_1", "sarjeeta",
-                         "shruti_verma_", "panwarversha8", "saru_3565",
-  ],
+                        "simran6734", "worldwide_photography_hub", "mehakrajput132",
+                        "mansi__cupcake", "deeksha_rajput_07", "ritika_2945",
+                        "shizhukasingh0", "simar.5796", "shivanimohitsharma",
+                        "pari_ji_bhardwaj", "cutegirlsonali", "garvita786",
+                        "pinkssss08", "skywalker_flying_1", "sarjeeta",
+                        "shruti_verma_", "panwarversha8", "saru_3565",
+                        ],
     # Enable the following to schedule the bot. Uses 24H
     # end_at_h = 23, # Hour you want the bot to stop
     # end_at_m = 30, # Minute you want the bot stop, in this example 23:30
