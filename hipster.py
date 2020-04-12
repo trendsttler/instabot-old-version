@@ -12,11 +12,12 @@ from src.unfollow_protocol import unfollow_protocol
 bot = InstaBot(
     # login="trend.sttler",  # Enter username (lowercase). Do not enter email!
     # password="karansoniji#1",
-    login="open_that_up",
-    password="SADEVRA72722",
+    login="alignthem.co",
+    password="Karansoniji1",
     like_per_day=2000,
     comments_per_day=0,
-    tag_list=["Advertising", "Advice", "Android", "Anime", "Apple", "Architecture", "Art", "Baking", "Beauty", "Bible", "Blog", "Blogging", "Book Reviews", "Books", "Business", "Canada", "Cars", "Cartoons", "Celebrities", "Celebrity", "Children", "Christian", "Christianity", "Comedy", "Comics", "Cooking", "Cosmetics", "Crafts", "Cuisine", "Culinary", "Culture", "Dating", "Design", "Diy", "Dogs", "Drawing", "Economy", "Education", "Entertainment", "Environment", "Events", "Exercise", "Faith", "Family", "Fantasy", "Fashion", "Fiction", "Film", "Fitness", "Folk", "Food", "Football", "France", "Fun", "Funny", "Gadgets", "Games", "Gaming", "Geek", "Google", "Gossip", "Graphic Design", "Green", "Health", "Hip Hop", "History", "Home", "Home Improvement", "Homes", "Humor", "Humour", "Hunting", "Illustration", "Indie", "Inspiration", "Interior Design", "Internet", "Internet Marketing", "Iphone", "Italy", "Kids", "Landscape", "Law", "Leadership", "Life", "Lifestyle", "Literature", "London", "Love", "Management", "Marketing", "Media", "Men", "Mobile", "Money", "Movies", "Music", "Nature", "News", "Nutrition", "Opinion"],
+    tag_list=[
+" userinterface ","uxuidesign ","webdesign ","uiux ","uxinspiration ","interactiondesign ","designtips #designprocess #dailyinspiration ","uxtrends ","uiuxdesign ","freelancer ","uxchoice ","uidesign ","designstrategy ","designbusiness ","designadvice ","bizofdesign ","userexperiencedesign ","ux_meta ","fourmeta"],
     tag_blacklist=["rain", "thunderstorm", "followers",
                    "fc", "official", "desi", "japnies", "bhabhi"],
     user_blacklist={},
